@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block title %}Current Date and Time{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <h1>Current Date and Time</h1>
+    <p class="lead">The current time is {{ current_time }}.</p>
+    <p class="lead">The current date is {{ current_date }}.</p>
+  </div>
+{% endblock %}
